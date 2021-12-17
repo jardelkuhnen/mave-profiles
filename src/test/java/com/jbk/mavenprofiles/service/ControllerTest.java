@@ -1,13 +1,11 @@
 package com.jbk.mavenprofiles.service;
 
-import com.jbk.mavenprofiles.tags.IntegrationTesTag;
-import org.junit.experimental.categories.Category;
-import org.junit.jupiter.api.Tag;
+import com.jbk.mavenprofiles.suites.tags.IntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.suite.api.Suite;
 
 @Suite
-class IntegrationTest extends IntegrationTesTag {
+class ControllerTest extends IntegrationTest {
 
     @Test
     void returnAnotherString() {

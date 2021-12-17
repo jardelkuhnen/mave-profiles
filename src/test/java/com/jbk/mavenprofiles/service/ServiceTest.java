@@ -1,11 +1,11 @@
 package com.jbk.mavenprofiles.service;
 
-import com.jbk.mavenprofiles.tags.UnitTestTag;
+import com.jbk.mavenprofiles.suites.tags.UnitTest;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.suite.api.Suite;
 
 @Suite
-class UnitTest extends UnitTestTag {
+class ServiceTest extends UnitTest {
 
     @Test
     void returnString() {
