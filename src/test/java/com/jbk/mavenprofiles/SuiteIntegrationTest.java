@@ -6,6 +6,6 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectPackages("com.jbk.*")
-@IncludeTags("UnitTest")
-class UnitTests {
+@IncludeTags("IntegrationTest")
+class SuiteIntegrationTest {
 }
