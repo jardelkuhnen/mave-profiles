@@ -10,7 +10,7 @@
 
 ## Description
 
-This project helped me to understando how to configure maven profiles, to execute tests separately.
+This project helped me to understand how to configure maven profiles, to execute tests separately.
 
 ## Run tests
 
